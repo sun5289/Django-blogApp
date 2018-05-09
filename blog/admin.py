@@ -13,3 +13,5 @@ class PostAdmin(admin.ModelAdmin):
     count_text.short_description = '내용 글자수'
 
 admin.site.register(Post,PostAdmin)
+
+#admin/admin123
